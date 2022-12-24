@@ -19,68 +19,69 @@ body{
     background-color: #EDE8F0;
 }
 header{
-    width: 100%;
-    background-color: #652c8d;
+    background-color: #652C8D;
     display: flex;
-    justify-content: space-between;
-    height: 15%;
-}
-header>img{
-    width: 5%;
+    justify-content: center;
+    width: 100%;
 }
 a{
     color: #fff;
 }
+.cu{
+    height: 59px;
+    margin-top: 1rem;
+    margin-left:1rem;
+}
+.text{
+    position: relative;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin-right: 2rem;
+    
+}
+.links{
+    position: relative; 
+    margin-top: -50px;
+    padding-bottom: 30px;
+    margin-left: 20rem;
+
+}
+.icons{
+    position: relative;
+    font-size: 20px;
+    margin-left: 12em;
+    text-decoration: none;
+    word-spacing: 10px;
+}
 .navigation{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 400px;
     background-color: #652C8D;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 35%;
-    border-bottom-right-radius: 35%;
+    padding-top: 4em;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
 }
-
-.navigation ul li a{
-    position: relative;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    font-weight: 500;
-    margin-top: 50px;
-    
+/*  */
+.slider-img {
+  margin: 0em 0 2em 0;
 }
-.navigation ul li a .text{
-    position: relative;
-    display: inline-block;
-    font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 0.05em;
-    color: white;
-}
-.promo_image{
-    display: flex;
-}
-
-
-.navigation .welcome{
-    position: relative;
-    margin-left: 250px;
-    margin-top: -50px;
-}
-.navigation ul li a .cu{
-    height: 50px;
-    margin-top: -60px;
-    margin-right: 100px;
+.mySlides {
+  width: 100%;
+  height: 30em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .deedtext{
   display: grid;
   row-gap: 2vh;
+  
   grid-template-columns: auto auto ;
   align-items: center;
   width: 50%;
@@ -116,14 +117,13 @@ footer{
     border-top-right-radius: 40%;
 }
 footer img{
-    width: 100%;
-    margin-left: 36em;
-    margin-top: 10rem;
+    /* width: 100%; */
+    margin-left: 45%;
+    margin-top: 10%;
 }
 .zur1{
-    margin-left: -12rem;
-    margin-bottom: 0rem;
-    margin-top: -20rem;
+    margin-left: -6%;
+    margin-top: -16%;
 }
 footer .deliver{
     word-spacing: normal;
@@ -147,12 +147,7 @@ footer ul li a{
     width: 100%;
     margin-left: 100px;
 }
-footer .zur1 img{
-   /* margin-right: -50rem; */
-   margin-left: 45rem;
-   margin-top: 14rem;
-  
-}
+
 footer .copy{
     color: white;
     float: right;
