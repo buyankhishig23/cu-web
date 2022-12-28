@@ -249,6 +249,8 @@ footer .copy{
 footer .social{
     margin-top: 100px;
     margin-left: 200px;
+    color: #fff;
+    /* text-decoration-color: #fff; */
 }
 .zur1{
     margin-left: -6%;

@@ -29,7 +29,7 @@ header{
 .cu{
     height: 59px;
     margin-top: 1rem;
-    /* margin-left:-10rem; */
+    margin-left: -3rem;
 }
 .text{
     position: relative;
@@ -40,26 +40,26 @@ header{
     justify-content: center;
     text-align: center;
     margin-right: 2rem;
-    /* word-spacing: 100px; */
-    
-    
 }
 .links{
     position: relative; 
     margin-top: -50px;
     padding-bottom: 30px;
-    margin-left: 20rem;
-   
+    margin-left: 12rem;
 
 }
 .icons{
     position: relative;
     font-size: 20px;
-    margin-left: 6  0em;
+    margin-left: 10em;
     text-decoration: none;
     word-spacing: 10px;
     color: #fff;
-    margin-left: 10rem;
+}
+.topicon{
+  margin-left:40rem;
+  margin-top: -2rem;
+  margin-bottom: -3rem;
 }
 .navigation{
     position: relative;
@@ -71,7 +71,7 @@ header{
     border-bottom-left-radius: 40%;
     border-bottom-right-radius: 40%;
 }
-/*  */
+
 html,body {
 	margin: 0;
 	padding: 0;
@@ -103,9 +103,6 @@ html,body {
 }
 .slider-wrapper img{
   border-radius: 20%;
-  /* width: 100%; */
-  /* height: 100%; */
-
 }
 .slide {
 	float: left;
@@ -162,7 +159,6 @@ html,body {
 .wtf {
   display: inline-block;
   margin-left: 7rem;
-  /* margin-bottom: 100rem ; */
 }
 .booking-card {
   position: relative;
@@ -170,7 +166,6 @@ html,body {
   width: 270px;
   flex: 0 0 100px;
   flex-direction: column;
-  /* margin-top: 4em; */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 30px;
@@ -209,7 +204,6 @@ html,body {
 }
 .content img{
   width: 50%;
-  /* margin-left: -3rem; */
   background-size: cover;
 }
 .informations-container {
@@ -225,7 +219,6 @@ html,body {
   margin-top: 40px;
 }
 .bakes img{
-  /* margin-top: -40px; */
   height: 50px;
   width: 180px;
 }
@@ -262,7 +255,6 @@ html,body {
   border-color: white;
 }
 
-/*zurag hover*/
 .booking-card:hover::before {
   background:#452166;
 }
@@ -294,7 +286,6 @@ html,body {
 
 .photobanner img {
   margin: 0px 25px;
-  /* box-shadow: 2px 2px 8px #8a8a8a; */
 }
 
 .photobanner {
@@ -319,7 +310,6 @@ html,body {
 
 .photobanner2 img {
   margin: 0px 25px;
-  /* box-shadow: 2px 2px 8px #8a8a8a; */
 }
 
 .photobanner2 {
@@ -370,59 +360,153 @@ html,body {
   text-align: center; 
   margin-left: 40rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
   font-size: 1rem;
   box-shadow:  1px 0px 3px 3px whitesmoke;
 }
-footer{
-    position: absolute;
+.wrapper2 { display: flex; }
+.wrapper2 .button2{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px #652C8D;
+    transition: all 0.3s ease-out;
+    
+  }
+  .wrapper2 .button2:hover{
+    width: 9.5rem;
+  }
+  .wrapper2 .button2 .icon{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper2 .button2:nth-child(1):hover .icon{
+    background: #4267B2;
+  }
+  .wrapper2 .button2:nth-child(2):hover .icon{
+    background: #E1306C;
+  }
+  .wrapper2 .button2:nth-child(3):hover .icon{
+    background: #ff0000;
+  }
+  .wrapper2 .button2 .icon i{
+    font-size: 1.5rem;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper2 .button2:hover .icon i{
+    color: #fff;
+  }
+  .wrapper2 .button2 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 300px;
+    line-height: 50px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .wrapper2 .button2:nth-child(1) span{
+    color: #4267B2;
+  }
+  .wrapper2 .button2:nth-child(2) span{
+    color: #E1306C;
+  }
+  .wrapper2 .button2:nth-child(3) span{
+    color: #ff0000;
+  }
 
-    width: 100%;
- 
-    background-color: #652C8D;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
+button2{
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  color: #909;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  letter-spacing: .25px;
+  overflow: visible;
+  padding: 2px 24px;
+  margin-left: 190px;
+  margin-top: 50px;
+}
+.wrapper2{
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-top: 12  rem;
+}
+.bottomicon{
+  margin: 1rem;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  height: 38rem;
+  margin-top: 2rem;
+  background-color: #652C8D;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
 }
 footer img{
-   
-    margin-left: 45%;
-    margin-top: 10%;
+  margin-left: 45%;
+  /* margin-top: 10%;  */
 }
-.zur1{
-    margin-left: -6%;
-    margin-top: -16%;
-}
+
 footer .deliver{
-    word-spacing: normal;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    color: white;
+  word-spacing: normal;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  color: white;
 }
 footer ul li{
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    margin-top: 60px;
-    margin-left: 45px;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  /* margin-top: 60px; */
+  margin-left: 45px;
 }
 footer ul li a{
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    text-align: center;
-    width: 100%;
-    margin-left: 100px;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  margin-left: 7rem;
 }
 
 footer .copy{
-    color: white;
-    float: right;
-    margin-right: 100px;
-    margin-top: 100px;
+  color: white;
+  float: right;
+  margin-right: 100px;
+  margin-top: 100px;
 }
-footer .social{
+/* footer .social{
+  margin-top: 100px;
+  margin-left: 200px;
+  color: #fff;
+ 
+} */
+.zur1{
+  margin-left: -10rem;
+  /* margin-top: 100 rem;   */
+  margin-bottom: 10rem;
 
-    margin-top: 100px;
-    margin-left: 200px;
 }
