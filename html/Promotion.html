@@ -4,70 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="/img/logok.png"/>
-    <link rel="stylesheet" href="/css/Promotion.css">
-    
+    <link rel="icon" type="image/svg+xml" href="../img/logok.png"/>
+    <link rel="stylesheet" href="../css/Promotion.css">
+    <script src="../js/Promotion.js"></script>
     <title>CU MONGOLIA</title>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="">
-            <img class="cu" src="/img/Logo.png" alt="logo"></img></a>
-            <div class="links">
-              <a href="/HomePage.html/" class="text">Бидний тухай</a> 
-              <a href="/Product.html/" class="text">Бүтээгдэхүүн</a> 
-              <a href="/Promotion.html/" class="text">Урамшуулал</a> 
-              <a href="/Store.html/" class="text">Салбар</a>
-              <a href="/Contact.html" class="text">Холбоо барих</a>
-                <a href="" class="icons">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                  <ion-icon name="logo-instagram"></ion-icon>
-                  <ion-icon name="logo-youtube"></ion-icon>
-                </a>
+      <nav>
+        <a href="#">
+          <img class="cu" src="../img/Logo.png" alt="logo"></img>
+        </a>
+        <div class="links">
+          <a href="./HomePage.html/" class="text">Бидний тухай</a> 
+          <a href="./Product.html/" class="text">Бүтээгдэхүүн</a> 
+          <a href="./Promotion.html/" class="text">Урамшуулал</a> 
+          <a href="./Store.html/" class="text">Салбар</a>
+          <a href="./Contact.html" class="text">Холбоо барих</a>
+          <div>
+            <a href="" class="icons">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <ion-icon name="logo-instagram"></ion-icon>
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
           </div>
-        </nav>
-    </header>
-    <div class="navigation">
-        <div class="promotion">
+        </div>
+        <div class="navigation">
+          <div class="promotion">
             <div class="protitle">
-                <img src="/img/button-outline.png" alt="protitle">
-                <h1>Promotion</h1>
+              <img src="../img/button-outline.png" alt="protitle">
+              <h1>Урамшуулал</h1>
             </div>
             <div>
-                <h5>Манай хамгийн сүүлийн үеийн сурталчилгаа, үйл явдлын талаар эндээс үзнэ үү. 
-                    <br>Та тэднийг алдахыг хүсэхгүй байх!</br></h5>
+              <h5>Манай хамгийн сүүлийн үеийн сурталчилгаа, үйл явдлын талаар эндээс үзнэ үү. <br>Та тэднийг алдахыг хүсэхгүй байх!</h5>
             </div>
-        </div>
-    </div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
-
-<main>
-    <body>
-        <div class="tabs1">
-          <div class="tabs__head">
-            <div class="tabs__toggle is-active">
-              <span class="tabs__name">Бүгд</span>
-            </div>
-            <div class="tabs__toggle">
-              <span class="tabs__name">Уралдаан</span>
-            </div>
-            <div class="tabs__toggle">
-              <span class="tabs__name">Эвент</span>
-            </div>
-            <div class="tabs__toggle">
-                <span class="tabs__name">Урамшуулал</span>
-              </div>
           </div>
-          <container>
-            <div class="tabs__content is-active">
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      </nav>
+    </header>
+
+    <main>
+      <div class="tabs">
+        <input type="radio" name="tabs" id="tabone" checked="checked">
+        <label for="tabone">Бүгд</label>
+        <div class="tab">
+          <div id="grid-container">
+            <div id="tab-1">
               <div class="card1">
                 <div class="card1-header">
                   <a href="./DecCombo.html" class="promo">
-                    <img src="/img/December-Promotion-1.jpg" alt="promoro"/>
+                    <img src="../img/December-Promotion-1.jpg" alt="promoro"/>
                     <p>PROMOTIONS</p>
                   </a>
                   <h2>Dec Combo Promo</h2>
@@ -75,60 +64,76 @@
                 </div>
               </div>
             </div>
-          </container>
-        </div>
-        <div class="tabs__content is-active">
-          <div class="card2">
-            <div class="card2-header ">
-              <a href="./DecFestive.html" class="promot">
-                <img src="/img/December-Promotion-2.jpg" alt="promoro"/>
-                <p>PROMOTIONS</p>
-              </a>
-              <h2>Dec Festive Treats Promo</h2>
-              <h4>December Promotion</h4>
+            <div id="tab-2">
+              <div class="card2">
+                <div class="card2-header ">
+                  <a href="./DecFestive.html" class="promot">
+                    <img src="../img/December-Promotion-2.jpg" alt="promoro"/>
+                    <p>PROMOTIONS</p>
+                  </a>
+                  <h2>Dec Festive Treats Promo</h2>
+                  <h4>December Promotion</h4>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="tabs__content"></div>
-        <div class="tabs__content"></div>
-    </body>
-</main>
-<script src="/js/Promotion.js"></script>
+        <div class="tab">
+          <h1>Tab One Content</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        
+        <input type="radio" name="tabs" id="tabtwo">
+        <label for="tabtwo">Эвент</label>
+        <div class="tab">
+          <h1>Tab Two Content</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        
+        <input type="radio" name="tabs" id="tabthree">
+        <label for="tabthree">Уралдаан</label>
+        <div class="tab">
+          <h1>Tab Three Content</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
 
-<footer>
-    <div class="footer">
-      <div class="row">
-        <a href="">
-          <img src="./img/Logo.png" alt="Logo">
+        <input type="radio" name="tabs" id="tabfour">
+        <label for="tabfour">Урамшуулал</label>
+        <div class="tab">
+          <h1>Tab Four Content</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="deliver">
+        <div>
+          <img src="../img/Logo.png" alt="cu_logo">
+        </div>
+        <h5>Delivering Korean Lifestyle<br>Convenience Store Experience<br></h5>
+      </div>
+      <div class="holboos">
+          <a href="./Homepage.html">Бидний тухай</a>
+          <a href="./Product.html">Бүтээгдэхүүн</a>
+          <a href="./Promotion.html">Урамшуулал</a>
+          <a href="./Store.html">Дэлгүүр</a>
+          <a href="./Contact.html">Холбоо барих</a>
+      </div>
+      <div class="copy">
+        <p>© 2022 CU. All Rights Reserved.</p>
+      </div>
+      <div class="button2">
+        <a href="" class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
         </a>
-        <div class="row-md-6 item text">
-          <h3>Delivering Korean Lifestyle <br>Convenience Store Experience</br></h3>
-                        
-          <div class="links">
-            <a href="/HomePage.html/" class="link">Бидний тухай</a> 
-            <a href="/Product.html/" class="link">Бүтээгдэхүүн</a> 
-            <a href="/Promotion.html/" class="link">Урамшуулал</a> 
-            <a href="/Store.html/" class="link">Дэлгүүр</a>
-            <a href="/Contact.html" class="link">Холбоо барих</a>
-          </div>
-                        
-          <div class="footmail">
-            <img src="./img/icon-email.png" alt="email">
-            <a href="mailto:cucareline@gmail.com">cucareline@mycu.my</a>
-          </div>
-          <div class="row item social">
-            <a href="#">
-              <!-- <ion-icon class="icon1" name="logo-facebook"></ion-icon>
-                <ion-icon class="icon2" name="logo-instagram"></ion-icon>
-                <ion-icon class="icon3" name="logo-youtube"></ion-icon> -->
-              </a>
-            </div>
-          </div>
-        </div>
-        <p class="copyright">© 2022 CU.All Rights Reserved.</p>
-        <div class="mascot">
-          <img src="./img/footer-mascot.png.webp" alt="footcute">
-        </div>
-    </div>
-</footer>
+      </div>
+      <div class="zur1">
+        <img src="../img/footer-mascot.png.webp" alt="footer_image">
+      </div>
+    </footer>
+</body>
 </html>

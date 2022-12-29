@@ -83,74 +83,7 @@ a{
 }
 
 /*main css*/
-#grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 0.5rem;
-    padding: 0.5rem;
-    margin-top: 4rem;
-}
-#grid-left{
-    position: sticky;
-    position: -webkit-sticky; 
-    width: 18.75rem;
-    grid-row-start: 1;
-    grid-row-end: 20; 
-    color: #652C8D;
-    font-size: 	1rem;
-    font-weight: bolder;
-    padding-left: 4.375rem;
-    width:15.625rem;
-    top: 0;
-}
-#grid-left img{
-    display: flex;
-    height: 2.5rem;
-    margin-top: -1.875rem;
-    margin-left: -1.125rem;
-}
-#grid-right{
-    width: 80rem;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 0px;
-    padding: 1rem;
-}
-.toptext{
-    color: #652C8D;
-    font-size: 1.25rem;
-    font-weight: bolder;
-}
-.toptext img{
-    position:relative;
-    display: flex;
-    margin-top: -2.5rem;
-    margin-left: 3.125rem;
-}
-#box-1{
-    margin-top: 3rem;
-    width: 	6.25rem;
-    margin-bottom: 5rem;
-}
-#box-1 img{
-    border-radius: 1.5625rem;
-    height: 24rem;
-    width: 23rem;
-}
-#box-1 p{
-    position: relative;
-    background-color: #fff;
-    border-radius: 1.5625rem;
-    width: 17rem;
-    height: 3rem;
-    text-align: center;
-    color: #652C8D;
-    font-size: 	0.9375rem;
-    font-weight: 700;
-    padding: 0.25rem;
-    margin-top: -1.25rem;
-    margin-left: 3.125rem;
-}
+
 
 /* footer css*/
 footer{

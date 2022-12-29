@@ -8,7 +8,7 @@ tabs.forEach((tab, index) => {
         });
         tabs.forEach((tab) => {
             tab.classList.remove('is-active');
-        });
+        }); 
         contents[index].classList.add('is-active');
         tabs[index].classList.add('is-active');
     });
