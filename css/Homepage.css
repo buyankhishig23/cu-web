@@ -604,19 +604,67 @@ footer .copy{
 }
 
 @media(max-width:500px){
+  .cu{
+   margin-left: 5%;
+  }
   .lowerpromo{
     grid-template-columns: auto ;
+  
     width: 100%;
+  }
+  .toptext{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: center;
   }
   .links{
     display: none;
   }
   .wrapper{
-    display: none;
+    /* display: none; */
   }
   .lowerbutton{
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     margin-left: 50%;
+=======
+    /* margin-right: -30rem; */
+    margin-left: 35%;
+    margin-top: 5rem;
+>>>>>>> 86c22fdb2ae914d43b570488f65955d0fb9f44aa
+  }
+  .zur1{
+      margin-top: -2rem;
+      /* margin-bottom: 40rem; */
+      margin-left: -2rem;
+  }
+  .zur1 img{
+    width: 30%;
+    height: 30%;
+  }
+  .qwe{
+    margin-bottom: -4rem;
+  }
+  .bottomicon{
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+  .circle{
+    height: 80rem;
+  }
+  .lowertext{
+    /* margin-top: 20srem; */
+  }
+  .topimage{
+    display: none;
+}
+  .slider{
+    width: 19rem;
+  }
+  footer img {
+    margin-left: 40%;
+    width: 5rem;
   }
 }
