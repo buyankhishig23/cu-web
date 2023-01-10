@@ -627,18 +627,16 @@ footer .copy{
   .lowerbutton{
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    margin-left: 50%;
-=======
+
     /* margin-right: -30rem; */
     margin-left: 35%;
     margin-top: 5rem;
->>>>>>> 86c22fdb2ae914d43b570488f65955d0fb9f44aa
+a
   }
   .zur1{
-      margin-top: -2rem;
+      margin-top:-2rem;
       /* margin-bottom: 40rem; */
-      margin-left: -2rem;
+      margin-left:-2rem;
   }
   .zur1 img{
     width: 30%;
