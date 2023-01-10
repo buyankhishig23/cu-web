@@ -615,10 +615,8 @@ footer .copy{
     display: none;
   }
   .lowerbutton{
-    /* width: 100%; */
     justify-content: center;
     align-items: center;
-    /* margin-right: -30rem; */
     margin-left: 50%;
   }
 }
