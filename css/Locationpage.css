@@ -404,6 +404,11 @@ nav{
   /* background-color: #EDE8F0; */
   background-color: white;
   width: 100%;
-  
+}
+footer{
+  height: 80%;
+}
+.zur1{
+  margin-top: -2rem;
 }
 }
