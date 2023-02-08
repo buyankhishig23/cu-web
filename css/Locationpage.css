@@ -349,6 +349,7 @@ footer .copy{
    margin-left: 4rem;
    margin-bottom: 0rem;
 }
+/* smart phone */
 @media(max-width:500px){
 
   footer{
@@ -365,10 +366,12 @@ footer .copy{
   }
   .zur1{
     margin-left: -50px;
+  
   }
   .zur1 img {
+    /* margin-top: -10rem; */
     width: 10rem;
-    height: 9rem;
+    height: 10rem;
   }
   .cu{
     height: 59px;
@@ -395,20 +398,33 @@ footer .copy{
     width: 100%;
 }
 nav{
-  width: 100%;
+  width: 80%;
 }
 .navigation{
   margin-top: -2rem;
 }
 .scroll-bg{
-  /* background-color: #EDE8F0; */
   background-color: white;
   width: 100%;
 }
 footer{
-  height: 80%;
+  height: 100%;
 }
 .zur1{
   margin-top: -2rem;
 }
+}
+/* tablet */
+@media(max-width:1000px ) and (min-width:500px){
+  .links{
+    width: 100%;
+    
+  }
+  nav{
+    width: 100%;
+    margin: auto;
+  }
+  .navigation{
+    width: 100%;
+  }
 }

@@ -129,13 +129,13 @@ html,body {
 }
 .toptext h2{
   color: white;
-  font-size: 1rem;
+  font-size: 2rem;
 
 }
 
 .toptext h3{
   color: white;
-  font-size: 0.5rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .topimage{
@@ -157,7 +157,7 @@ html,body {
   border-top-left-radius:10%;
 }
 
-.wtf {
+.products {
   display: inline-block;
   margin-left: 7rem;
 }
@@ -192,8 +192,10 @@ html,body {
   height: 30px;
 }
 .book-container img{
-  width: 250px;
-  
+  padding-top: 1rem;
+  width: 180px;
+  height: 15rem;
+  border-radius: 15%;
 }
 .content {
   position: absolute;
@@ -208,16 +210,17 @@ html,body {
   background-size: cover;
 }
 .informations-container {
-  height: 260px;
+  /* padding-top: 5rem; */
+  height: 220px;
   flex: 1 0 auto;
   padding: 0px;
   background: #452166;
-  transform: translateY(175px);
+  transform: translateY(165px);
   transition: .3s;
 }
 .bakes{
   margin-bottom: 45px;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 .bakes img{
   height: 50px;
