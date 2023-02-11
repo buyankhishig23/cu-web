@@ -108,57 +108,62 @@ a{
     margin-bottom: 4rem;
 }
 
-/* footer css*/
-footer{
-    position: absolute;
-    width: 100%;
-    height: 42rem;
-    margin-top: 2rem;
-    margin-bottom: 0;
-    background-color: #652C8D;
-    border-top-left-radius: 40%;
-    border-top-right-radius: 40%;
-  }
-  .deliver{
-    word-spacing: normal;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 2rem;
-    color: white;
-  }
-  .deliver img{
-    width: 8rem;
-    margin-top: 4rem;
-  }
-  .deliver h5{
-    margin-top: 2rem;
-    font-size: 1.1rem;
-    font-weight: 400;
-  }
-  .holboos{
-    position: relative;
-    text-align: center;
-    font-weight: 700;
-    font-size: 1.2rem;
-    color: white
-  }
-  .holboos a{
-    display: inline-block;
-    text-decoration: none;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .copy{
-    color: white;
-    float: right;
-    margin-right: 10rem;
-    margin-top: 10rem;
-  }
-  .zur1 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-  }
-  
+/* footer css*/footer{
+  position: absolute;
+  width: 100%;
+  height: 42rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  background-color: #652C8D;
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+}
+.deliver{
+  word-spacing: normal;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  color: white;
+}
+.deliver img{
+  width: 8rem;
+  margin-top: 4rem;
+}
+.deliver h5{
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.holboos{
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+}
+.holboos a{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.copy{
+  color: white;
+  float: right;
+  margin-right: 10rem;
+  margin-top: 18rem;
+}
+.zur1 img{
+  position: inherit;
+  display: block;
+  width: 25%;
+  height: 20%;
+  margin-left: 39rem;
+  margin-top: 4.5rem;
+}
+.button2{
+  position: absolute;
+  margin-left: 70rem;
+  margin-top: 14rem;
+}

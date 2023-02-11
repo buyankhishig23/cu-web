@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
 
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 :root{
-  --clr: #652C8D;
+    --clr: #652C8D;
 }
 body{
-  position: relative;
-  background-color: #EDE8F0;
+    position: relative;
+    background-color: #EDE8F0;
 }
 header{
   background-color: #652C8D;
@@ -83,121 +83,32 @@ a{
 }
 
 /*main css*/
-a{
-    display: inline-block;
-    margin-left: 7rem;
+.zurag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
 }
-.booking-card {
-    position: relative;
-    display: inline-block;
-    width: 24.5rem;
-    flex: 0 0 10rem;
-    flex-direction: column;
-    margin-top: 4em;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    border-radius: 30px;
-    overflow: hidden;
-    background-position: center center;
-    background-size: cover;
-    background-color: #452166;
-    text-align: center;
-    transition: .3s;
+.protext{
+    color: #652C8D;
+    margin-left: 12rem;
+    margin-top: 7rem;
 }
-.booking-card::before {
-    content: '';
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    transition: .5s;
+.protext h2{
+    font-size: 3rem;
+    font-weight: 900;
 }
-.book-container {
-    height: 12rem;
-}
-.book-container img{
-    width: 22rem;
-}
-.content {
-    position: absolute;
-    opacity: 0;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}
-.content img{
-    width: 50%;
-    background-size: cover;
-}
-.informations-container {
-    height: 16rem;
-    flex: 1 0 auto;
-    padding: 0px;
-    background: #452166;
-    transform: translateY(9rem);
-    transition: .3s;
-}
-.bakes{
-    margin-bottom: 3rem;
-}
-.bakes img{
-    height: 4.375rem;
-    width: 15.6rem;
-}
-.bakes h1{
-    margin-top: -3.75rem;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.0625rem;
-}
-.disclaimer {
-    font-size: 1em;
-    font-weight: 700;
-    color: #fff;
-    padding-bottom: -1.25rem;
-    margin-bottom: 1.25rem;    
-}
-.more-information{
-    padding: 1.25rem;
-}
-.btn{
-    border-radius: 1.25rem;
-    border-color: white;
-    height: 2.5rem;
-    width: 9.375rem;
-    background: #fff;
-    font-weight: bolder;
-    font-size: 0.9375em;
-    color: #452166;
-    cursor: pointer;
-    transition: .5s;
-    border-style: none;
-    box-shadow:  0.0625rem 	0.125rem 0.625rem 0.625rem rgba(92, 73, 119, 0.673);
-}
-.btn:hover {
-    border-color: white;
+.protext h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.6rem;
+    margin-bottom: 4rem;
 }
 
-/*zurag hover*/
-.booking-card:hover::before {
-    background:#452166;
-}
-.booking-card:hover .book-container .content {
-    opacity: 1;
-    transform: translateY(0px);
-}
-.booking-card:hover .informations-container {
-    transform: translateY(0px);
-}
-.booking-card:hover .informations-container .more-information {
-    opacity: 1;
-}
-
-/* footer css*/
-footer{
+/* footer css*/footer{
   position: absolute;
   width: 100%;
   height: 42rem;
@@ -241,11 +152,18 @@ footer{
   color: white;
   float: right;
   margin-right: 10rem;
-  margin-top: 10rem;
+  margin-top: 18rem;
 }
 .zur1 img{
+  position: inherit;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  width: 25%;
+  height: 20%;
+  margin-left: 39rem;
+  margin-top: 4.5rem;
+}
+.button2{
+  position: absolute;
+  margin-left: 70rem;
+  margin-top: 14rem;
 }
