@@ -65,8 +65,5 @@
 	
 })();
 
-const sidebarbutton=document.getElementsByClassName("wrapper")[0];
-document.getElementById("tovch").onclick=function(){
-	console.log("hello");
-};
+
 

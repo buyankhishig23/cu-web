@@ -2,7 +2,7 @@
 
     function getData(){
         let data = new Array();
-        fetch('/public/cumongol.json',{
+        fetch('https://server-eight-sable.vercel.app/api/v1/promos',{
             method: 'GET',
             headers:{
                 'Accept': 'application/json',
@@ -10,6 +10,7 @@
         })
         .then(response => response.json())
         .then(response => {
+            console.log(data);
             data = response;
             addElement(data);
         }).catch()
@@ -27,10 +28,8 @@
             divElem.setAttribute("class","container1");
             divElem2.setAttribute("class","details1");
             artElem.setAttribute("class","card1");
-
             divElem2.appendChild(h3Elem);
             divElem2.appendChild(pElem);
-
             h3Elem.innerText = items[i].name;
             pElem.innerText = items[i].description;
             img1.setAttribute("src", items[i].path);
