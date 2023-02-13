@@ -85,7 +85,12 @@ a{
 /*main css*/
 a{
     display: inline-block;
-    margin-left: 7rem;
+    margin-left: 5rem;
+    margin-right: 3rem;
+}
+main{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 .booking-card {
     position: relative;
@@ -222,13 +227,13 @@ footer{
 .deliver h5{
   margin-top: 2rem;
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 .holboos{
   position: relative;
   text-align: center;
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
 }
 .holboos a{
@@ -243,16 +248,54 @@ footer{
   margin-right: 10rem;
   margin-top: 18rem;
 }
+.zur1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .zur1 img{
   position: inherit;
   display: block;
-  width: 25%;
-  height: 20%;
-  margin-left: 39rem;
-  margin-top: 4.5rem;
+  margin-top: -10rem;
 }
 .button2{
   position: absolute;
   margin-left: 70rem;
   margin-top: 14rem;
+}
+
+@media(max-width:500px){
+  .header{
+    background-color: #652C8D;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    background-color: #652C8D;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  html{
+    width: 100%;
+
+  }
+  body {
+    width: 188vh;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .icons{
+    margin-left: 5em;
+  }
+  .button2{
+    margin-top: 10rem;
+  }
+  .copy{
+    margin-top: 13rem;
+  }
 }

@@ -211,3 +211,70 @@ a{
   margin-left: 70rem;
   margin-top: 14rem;
 }
+
+@media(max-width:500px){
+  .header{
+    background-color: #652C8D;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    background-color: #652C8D;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  html{
+    width: 100%;
+
+  }
+  body {
+    width: 188vh;
+  }
+  main {
+    margin-left: -13rem;
+  }
+  footer{
+    margin-top: 8rem;
+  }
+  #grid-container{
+    justify-content: center;
+    text-align: center;
+  }
+  #grid-left img{
+    margin-left: 3.6rem;
+  }
+  #grid-right{
+    width: 70rem;
+    margin-right: -10rem;
+  }
+  #box-1 img{
+   height: 15rem;
+   width: 20rem;
+  }
+  #box-1 p{
+    margin-right: 4rem;
+  }
+  #tab-1{
+    margin-right: 10rem;
+  }
+  #tab-2{
+    margin-top: 30rem;
+  }
+  #event{
+    margin-bottom: 29rem;
+  }
+  .icons{
+    margin-left: 5em;
+  }
+  .button2{
+    margin-top: 10rem;
+    margin-left: 60rem;
+  }
+  .copy{
+    margin-top: 13rem;
+  }
+  .zur1{
+    margin-left: -8rem;
+    padding-right: -30rem;
+  }
+}

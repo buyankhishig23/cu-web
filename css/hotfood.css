@@ -229,3 +229,82 @@ a{
   margin-left: 70rem;
   margin-top: 14rem;
 }
+
+
+@media(max-width:500px){
+  .header{
+    background-color: #652C8D;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    background-color: #652C8D;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  html{
+    width: 100%;
+
+  }
+  body {
+    width: 188vh;
+  }
+  main {
+    margin-left: -13rem;
+  }
+  footer{
+    margin-top: 8rem;
+  }
+  #grid-container{
+    justify-content: center;
+    text-align: center;
+  }
+  .sticky{
+    margin-left: 13rem;
+  }
+  #grid-left img{
+    margin-left: 3.6rem;
+  }
+  #grid-right{
+    width: 60rem;
+    margin-left: 35rem;
+  }
+  #box-1 img{
+   height: 12rem;
+   width: 16rem;
+  }
+  #box-1 p{
+    border-radius: 1.2625rem;
+    width: 14rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 	0.4375rem;
+    font-weight: 700;
+    padding: 0.25rem;
+    margin-top: -1.25rem;
+    margin-left: 1.125rem;
+  }
+  #tab-1{
+    margin-right: 10rem;
+  }
+  #tab-2{
+    margin-top: 30rem;
+  }
+  #event{
+    margin-bottom: 29rem;
+  }
+  .icons{
+    margin-left: 5em;
+  }
+  .button2{
+    margin-top: 10rem;
+    margin-left: 60rem;
+  }
+  .copy{
+    margin-top: 13rem;
+  }
+  .zur1{
+    margin-left: -8rem;
+    padding-right: -30rem;
+  }
+}
