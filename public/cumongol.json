@@ -2,28 +2,28 @@
     {
         "id" : 1,
         "name" : "1+1 Урамшуулал",
-        "path" : "/img/promo1.jpeg",
+        "path" : "/img/promo1.png",
         "alt": "zurag",
         "description" : "Freshly baked goods that we stock up in the a.m. for you to grab and go!"
     },
     {
         "id" : 2,
         "name" : "2+2 Урамшуулал",
-        "path" : "/img/promo2.jpeg",
+        "path" : "/img/promozurag2.jpeg",
         "alt": "zurag",
         "description" : "Freshly baked goods that we stock up in the a.m. for you to grab and go!"
     },
     {
         "id" : 3,
         "name" : "2-р сарын урамшуулал",
-        "path" : "/img/promo1.jpeg",
+        "path" : "/img/promo1.png",
         "alt": "zurag",
         "description" : "Freshly baked goods that we stock up in the a.m. for you to grab and go!"
     },
     {
         "id" : 4,
         "name" : "3-р сарын урамшуулал",
-        "path" : "/img/promo2.jpeg",
+        "path" : "/img/promozurag2.jpeg",
         "alt": "zurag",
         "description" : "Freshly baked goods that we stock up in the a.m. for you to grab and go!"
     }
