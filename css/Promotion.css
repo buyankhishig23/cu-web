@@ -108,7 +108,6 @@ a{
   display: none;
   padding: 1rem;
   margin-top: 2rem;
-  background: #fff;
 }
 #grid-container{
   display: grid;
@@ -206,6 +205,19 @@ a{
   object-fit: cover;
   border-radius: 7%;
 }
+#event{
+  justify-content: center;
+  align-items: center;
+}
+#event h1{
+  color: #c7b0db;
+  text-align: center;
+  width: 100%;
+  height: 25rem;
+  font-size: 1rem;
+  padding-top: 10rem;
+  font-weight:bolder;
+}
 .tabs input[type="radio"] {
 	display: none;
 }
@@ -215,6 +227,7 @@ a{
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
 }
+
 
 
 /* footer css*/
@@ -262,11 +275,75 @@ footer{
   color: white;
   float: right;
   margin-right: 10rem;
-  margin-top: 10rem;
+  margin-top: 18rem;
 }
 .zur1 img{
+  position: inherit;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+  width: 25%;
+  height: 20%;
+  margin-top: 4.5rem;
+  margin-left: 39rem;
+}
+.button2{
+  position: absolute;
+  margin-left: 70rem;
+  margin-top: 14rem;
+}
+
+@media(max-width:500px){
+  .header{
+    background-color: #652C8D;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30rem;
+    background-color: #652C8D;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+  html{
+    width: 100%;
+
+  }
+  body {
+    width: 188vh;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  footer{
+    margin-top: 8rem;
+  }
+  #grid-container{
+    justify-content: center;
+    text-align: center;
+  }
+  #tab-1{
+    margin-right: 10rem;
+  }
+  #tab-2{
+    margin-top: 30rem;
+  }
+  #event{
+    margin-bottom: 29rem;
+  }
+  .icons{
+    margin-left: 5em;
+  }
+  .button2{
+    margin-top: 10rem;
+    margin-left: 60rem;
+  }
+  .copy{
+    margin-top: 13rem;
+  }
+  .zur1{
+    margin-left: -8rem;
+    padding-right: -30rem;
+  }
 }
