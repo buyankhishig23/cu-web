@@ -514,10 +514,7 @@ footer .copy{
   margin-top: 100px;
 }
 
-.zur1{
-  margin-left: -10rem;
-  margin-bottom: 10rem;
-}
+
 .wrapper .sidebar{
   background: rgb(5, 68, 104);
   position: fixed;
@@ -606,6 +603,12 @@ footer .copy{
   color: #a2ecff;
 }
 
+.cards1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 100px;
+  grid-gap: 150px;
+}
 @media(max-width:500px){
   .cu{
    margin-left: 5%;
@@ -635,10 +638,16 @@ footer .copy{
     margin-left: 35%;
     margin-top: 5rem;
   }
+  .cards1{
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-content: center;
+  }
   .zur1{
-      margin-top: -2rem;
-      /* margin-bottom: 40rem; */
-      margin-left: -2rem;
+      display: flex !important;
+      width: 100%;
+      justify-content: center;
+      
   }
   .zur1 img{
     width: 30%;
@@ -667,12 +676,6 @@ footer .copy{
     margin-left: 40%;
     width: 5rem;
   }
-}
-.cards1 {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 100px;
-  grid-gap: 150px;
 }
 .img1 {
   width: 100%;
