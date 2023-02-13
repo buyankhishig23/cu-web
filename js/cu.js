@@ -33,6 +33,7 @@
             h3Elem.innerText = items[i].name;
             pElem.innerText = items[i].description;
             img1.setAttribute("src", items[i].path);
+            img1.setAttribute("alt",items[i].path);
             img1.className = "hha"
             console.log(img1)
             divElem.appendChild(img1);
